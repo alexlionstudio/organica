@@ -1,0 +1,202 @@
+@import "font-arial.css";
+@import "utils.css";
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+	font-size: 10px;
+	line-height: 1.4;	
+}
+
+/* Below writing our code */
+.grid{
+	width: 960px;
+	margin: 0px auto;
+}
+.slider{
+	background-image: url(../img/slider.jpg);
+	height: 887px;
+	background-position: center top;
+}
+.logo{
+	padding: 30px 0px 69px;
+	width: 73px;
+}
+/* ------ nav menu ------ */
+.menu{
+	text-align: left;
+
+}
+.menu ul{
+	padding: 0px;
+
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0px 150px 0px 0px;
+}
+.menu ul :last-child{
+	margin: 0px 0px 0px 0px;
+}
+.menu ul li a{
+	font-family: Arial;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 20px;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+/* ------ slider content ------ */
+.slider_content{
+	padding: 74px 0px 0px;
+	width: 430px;
+}
+.slider_content h1{
+	font-family: Arial;
+	font-weight: 300;
+	font-size: 52px;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #46918F;
+	line-height: 62px;
+	margin-bottom: 27px;
+}
+.slider_content p{
+	margin: 0px;
+	font-family: Arial;
+	font-weight: 300;
+	font-size: 14px;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #46918F;
+	line-height: 25px;
+	width: 395px;
+}
+/* ------ content ------ */
+.content{
+	padding: 110px 0px 167px;
+}
+.left-block{
+	float: left;
+	width: 370px;
+}
+.left-block p{
+	margin: 0px;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+	color: #FE992A;
+	line-height: 28px;
+	width: 270px;
+}
+.right-block{
+	float: right;
+	width: 588px;
+}
+.right-block h2{
+	margin: 0px;
+    font-family: Arial;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #FE992A;
+	margin-bottom: 26px;
+}
+.right-block p{
+	margin: 0px;
+    font-family: Arial;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 28px;
+	color: #737C85;
+}
+/* ------ footer ------ */
+.footer{
+	background: #E56B69;
+	height: 474px;
+	padding-top: 47px;
+}
+.foot-block{
+	float: left;
+	width: 150px;
+}
+.footer p{
+	margin: 0px;
+	font-family: Arial;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 30px;
+}
+.footer ul{
+	margin: 0px;
+	padding: 0px;
+}
+.footer li{
+	list-style-type: none;
+}
+.footer a{
+	margin: 0px;
+	font-family: Arial;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.footer h3{
+	margin: 0px 0px 10px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 18px;
+}
+.contacts h3{
+	margin: 30px 0px 10px;
+}
+.contacts{
+	width: 310px;
+}
+.services, .markets, .hseq, .about{
+	text-align: left;
+	width: 140px;
+}
+.careers{
+	text-align: left;
+	width: 82px;
+}
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (max-width : 320px) {
+
+}
