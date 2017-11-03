@@ -115,6 +115,13 @@ html, body {
 	line-height: 28px;
 	color: #737C85;
 }
+.right-block a{
+	color: #737C85;
+}
+.right-block a:hover{
+	text-decoration: underline;
+	color: #FE992A;
+}
 /* ------ footer ------ */
 .footer{
 	background: #E56B69;
