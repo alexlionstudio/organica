@@ -129,8 +129,8 @@ html, body {
 /* ------ footer ------ */
 .footer{
 	background: #E56B69;
-	height: 474px;
 	padding-top: 47px;
+	padding-bottom: 159px;
 }
 .foot-block{
 	float: left;
