@@ -19,6 +19,8 @@ html, body {
 	background-image: url(../img/slider.jpg);
 	height: 887px;
 	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .logo{
 	padding: 30px 0px 69px;
@@ -82,7 +84,7 @@ html, body {
 }
 .left-block{
 	float: left;
-	width: 370px;
+	width: 307px;
 }
 .left-block p{
 	margin: 0px;
@@ -97,6 +99,8 @@ html, body {
 .right-block{
 	float: right;
 	width: 588px;
+	border-left: 1px solid #E1E1E1;;
+	padding-left: 62px;
 }
 .right-block h2{
 	margin: 0px;
